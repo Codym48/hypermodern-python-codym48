@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hypermodern-python-codym48"
+version = "0.1.0"
+description = "The hypermodern Python project initialized by Codym48"
+authors = ["Cody Martin <codytylermartin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Codym48/hypermodern-python-codym48"
+repository = "https://github.com/Codym48/hypermodern-python-codym48"
+keywords = ["hypermodern"]
+packages = [{include = "hypermodern_python_codym48", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
