@@ -19,6 +19,9 @@ requests = "^2.28.1"
 hypermodern-python-codym48 = "hypermodern_python_codym48.console:main"
 hypermodern-python-pythonversion = "hypermodern_python_codym48.pythonversion:main"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
